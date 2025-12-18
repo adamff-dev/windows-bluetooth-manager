@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <Target Name="CopyBluetoothDevicePairing" AfterTargets="Build">
+    <Copy SourceFiles="$(ProjectDir)BluetoothDevicePairing.exe" DestinationFolder="$(OutputPath)" />
+  </Target>
+
+</Project>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="3" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="5" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButtonRefresh" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Refrescar</value>
+  </data>
+  <data name="SearchPlaceholder" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Buscar por nombre o MAC...</value>
+  </data>
+  <data name="ButtonClearSaved" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Eliminar nombres guardados</value>
+  </data>
+  <data name="ColumnName" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Nombre</value>
+  </data>
+  <data name="ColumnFriendlyName" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Nombre amigable</value>
+  </data>
+  <data name="ColumnStatus" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Estado</value>
+  </data>
+  <data name="ColumnActions" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Acciones</value>
+  </data>
+  <data name="ButtonPair" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Emparejar</value>
+  </data>
+  <data name="ButtonUnpair" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Desemparejar</value>
+  </data>
+  <data name="ButtonSaveName" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Guardar nombre</value>
+  </data>
+  <data name="StatusListingDevices" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Listando dispositivos...</value>
+  </data>
+  <data name="StatusDevicesListed" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>dispositivos listados.</value>
+  </data>
+  <data name="StatusPairing" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Emparejando {0}...</value>
+  </data>
+  <data name="StatusPaired" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Emparejado</value>
+  </data>
+  <data name="StatusErrorPairing" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Error emparejando: {0}</value>
+  </data>
+  <data name="StatusUnpairing" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Desemparejando {0}...</value>
+  </data>
+  <data name="StatusUnpaired" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Desemparejado</value>
+  </data>
+  <data name="StatusErrorUnpairing" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Error desemparejando: {0}</value>
+  </data>
+  <data name="StatusNameSaved" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Nombre guardado</value>
+  </data>
+  <data name="StatusErrorSavingName" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Error guardando nombre</value>
+  </data>
+  <data name="StatusNamesClearedError" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Error eliminando nombres</value>
+  </data>
+  <data name="StatusNamesCleared" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Nombres guardados eliminados</value>
+  </data>
+  <data name="ErrorPairingTitle" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Error</value>
+  </data>
+  <data name="ErrorPairingMessage" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Error emparejando {0}:\n\n{1}</value>
+  </data>
+  <data name="ErrorUnpairingMessage" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Error desemparejando {0}:\n\n{1}</value>
+  </data>
+  <data name="DeviceStatusSaved" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Guardado</value>
+  </data>
+  <data name="WindowTitle" type="System.Resources.ResXString, System.Windows.Forms">
+    <value>Gestor Bluetooth</value>
+  </data>
+</root>

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotnet", "dotnet", "{71E6E750-85FD-B5BC-4321-E01377EC6231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothManager", "BluetoothManager.csproj", "{460BB5D8-F873-0D1A-A468-CB124EF86163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{460BB5D8-F873-0D1A-A468-CB124EF86163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{460BB5D8-F873-0D1A-A468-CB124EF86163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{460BB5D8-F873-0D1A-A468-CB124EF86163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{460BB5D8-F873-0D1A-A468-CB124EF86163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{460BB5D8-F873-0D1A-A468-CB124EF86163} = {71E6E750-85FD-B5BC-4321-E01377EC6231}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9997AC30-58B7-40E7-8D25-9E4E2467301F}
+	EndGlobalSection
+EndGlobal
